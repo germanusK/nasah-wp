@@ -1,0 +1,106 @@
+.gspw-posts article {
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 0 0 1em 0 !important;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+.gspw-posts article:last-child { 
+    border-bottom: 0; 
+    padding-bottom: 0;
+}
+.gspw-posts .entry-title { 
+    margin-bottom: .5em;
+    font-size: 17px;
+}
+.gspw-posts .entry-title a { 
+    text-decoration: none;
+    border: none;
+    line-height: 1.3;
+}
+.gspw-posts .entry-title a:focus,
+.gspw-posts .entry-title a:hover {
+    color: #007acc;
+}
+.gspw-posts .entry-image { margin-bottom: 1em; }
+.gspw-posts .entry-image img { 
+    max-width: 100%; 
+    height: auto;
+}
+.gspw-posts .entry-image a { border: none; }
+.gspw-posts .entry-meta {
+    color: #606060;
+    font-size: .8em;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.gspw-posts .entry-meta a,
+.gspw-posts .post-excerpt a,
+.gspw-posts footer a {
+    border: none;
+    color: #007acc;
+}
+.gspw-posts .entry-meta .dashicons,
+.gspw-posts .entry-categories .dashicons,
+.gspw-posts .entry-tags .dashicons {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    margin-right: 3px;
+}
+.gspw-posts p.post-excerpt,
+.gspw-posts p.post-content {
+    color: #1a1a1a;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+.gspw-posts .entry-meta .comments { white-space:nowrap; }
+.gspw-posts .entry-content>:last-child,
+.gspw-posts .entry-summary>:last-child { margin-bottom:1em; }
+.gspw-posts .more-link { white-space:nowrap; }
+.gspw-posts footer { 
+    display: block;
+    color: #606060;
+    font-size: .8em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.gspw-posts .custom-field,
+.gspw-posts .entry-categories,
+.gspw-posts .entry-custom-fields,
+.gspw-posts .entry-tags {
+    margin-bottom: .5em;
+}
+.gspw-after,
+.gspw-before { margin-bottom: 1rem; }
+.gspw-after>:last-child,
+.gspw-before>:last-child{ margin-bottom: 0; }
+
+/******************* Start Template Style  ============================*/
+
+.justify { text-align: justify; }
+.textleft { text-align: left; }
+.textright { text-align: right; }
+.textcenter { text-align: center; }
+/*.center { text-align: center; margin: 0 auto; }*/
+.left { text-align: left; float: left; }
+.right { text-align: right; float: right; }
+.floatleft { float: left; }
+.floatright{ float: right; }
+.round,
+.round img {
+    border-radius: 50%;
+}
+.grid-02 header {
+    overflow: hidden;
+}
+
+.grid-02 .meta-img {
+    width: 30%;
+    float: left;
+    margin: 0 3% 3% 0;
+}
+.grid-02 .meta-data {
+    width: 67%;
+    display: inline-block;
+}
