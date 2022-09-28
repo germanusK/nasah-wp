@@ -308,34 +308,34 @@ h6,
 	font-weight: 700;
 	letter-spacing: -0.0415625em;
 	line-height: 1.25;
-	margin: 3.5rem 0 2rem;
+	margin: 1.5rem 0 2rem;
 }
 
 h1,
 .heading-size-1 {
-	font-size: 3.6rem;
+	font-size: 3.2rem;
 	font-weight: 800;
 	line-height: 1.138888889;
 }
 
 h2,
 .heading-size-2 {
-	font-size: 3.2rem;
+	font-size: 2.8rem;
 }
 
 h3,
 .heading-size-3 {
-	font-size: 2.8rem;
+	font-size: 2.4rem;
 }
 
 h4,
 .heading-size-4 {
-	font-size: 2.4rem;
+	font-size: 2.0rem;
 }
 
 h5,
 .heading-size-5 {
-	font-size: 2.1rem;
+	font-size: 1.8rem;
 }
 
 h6,
@@ -546,7 +546,7 @@ blockquote {
 	border-width: 0 0 0 0.2rem;
 	color: inherit;
 	font-size: 1em;
-	margin: 4rem 0;
+	margin: 3rem 0;
 
 	/*rtl:ignore*/
 	padding: 0.5rem 0 0.5rem 2rem;
@@ -562,7 +562,7 @@ cite {
 
 blockquote cite {
 	display: block;
-	margin: 2rem 0 0 0;
+	margin: 1.2rem 0 0 0;
 }
 
 blockquote p:last-child {
@@ -591,7 +591,7 @@ samp {
 pre {
 	border: 0.1rem solid #dcd7ca;
 	line-height: 1.5;
-	margin: 4rem 0;
+	margin: 2.6rem 0;
 	overflow: auto;
 	padding: 3rem 2rem;
 	text-align: left;
@@ -654,7 +654,8 @@ iframe.instagram-media {
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 3em 0 3em -0.8em;
+	margin: 1em 0 1em -0.8em;
+	padding: 0.5em;
 	width: calc(100% + 1.6em);
 }
 
