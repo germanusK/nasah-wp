@@ -7,6 +7,17 @@ var twentytwenty = twentytwenty || {};
 // Set a default value for scrolled.
 twentytwenty.scrolled = 0;
 
+
+// show back-to-top button on scroll
+window.onscroll = function(){
+	if(document.body.scrollTop > 20){
+		document.getElementById('back-to-top').style.display = 'block';
+	}
+	else{
+		document.getElementById('back-to-top').style.display = 'none';
+	}
+}
+
 // polyfill closest
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill
 if ( ! Element.prototype.closest ) {

@@ -457,12 +457,13 @@ hr.styled-separator::after {
 
 a {
 	color: #cd2653;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus {
 	text-decoration: none;
+	color: steelblue;
 }
 
 
@@ -1916,7 +1917,8 @@ button.close-nav-toggle .toggle-text {
 .modal-menu a:hover,
 .modal-menu li.current-menu-item > .ancestor-wrapper > a,
 .modal-menu li.current_page_ancestor > .ancestor-wrapper > a {
-	text-decoration: underline;
+	text-decoration: none;
+	color: steelblue;
 }
 
 button.sub-menu-toggle {
@@ -6345,6 +6347,7 @@ a.to-the-top > * {
 
 }
 
+
 @media ( min-width: 1330px ) {
 
 
@@ -6383,4 +6386,15 @@ a.to-the-top > * {
 	.wp-block-pullquote.is-style-solid-color.alignright::before {
 		top: 0;
 	}
+}
+
+#site-header > div.header-inner.section-inner > div.header-navigation-wrapper > nav > ul * :hover{
+	text-decoration:none;
+	color: steelblue;
+}
+
+
+#site-header > div.header-inner.section-inner > div.header-navigation-wrapper > nav > ul * :active{
+	text-decoration:none;
+	color: steelblue;
 }

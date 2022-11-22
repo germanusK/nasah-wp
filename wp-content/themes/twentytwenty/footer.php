@@ -12,11 +12,11 @@
  */
 
 ?>
-			<footer id="site-footer" class="header-footer-group">
+			<footer id="site-footer" class="header-footer-group" style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
 
 				<div class="section-inner">
 
-					<div class="footer-credits">
+					<div class="footer-credits" style="justify-content: center; width: 100%;">
 
 						<p class="footer-copyright">&copy;
 							<?php
@@ -42,19 +42,8 @@
 
 					</div><!-- .footer-credits -->
 
-					<a class="to-the-top" href="#site-header">
-						<span class="to-the-top-long">
-							<?php
-							/* translators: %s: HTML character for up arrow. */
-							printf( __( 'To the top %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
-							?>
-						</span><!-- .to-the-top-long -->
-						<span class="to-the-top-short">
-							<?php
-							/* translators: %s: HTML character for up arrow. */
-							printf( __( 'Up %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
-							?>
-						</span><!-- .to-the-top-short -->
+					<a class="to-the-top" href="#site-header" style="float right; position: fixed; bottom: 50px; right: 50px;">
+						<div class="arrow" style="height: 4rem; width: 4rem; font-size: 3rem; border: 1px solid #fcfcfc; color: #fcfcfc; align-content: middle; justify-content: center; display: flex; position: sticky-bottom; background-color: black">&uarr;</div>
 					</a><!-- .to-the-top -->
 
 				</div><!-- .section-inner -->

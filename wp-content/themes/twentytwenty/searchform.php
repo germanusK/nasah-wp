@@ -23,10 +23,9 @@ if ( empty( $twentytwenty_aria_label ) && ! empty( $args['label'] ) ) {
 	$twentytwenty_aria_label = 'aria-label="' . esc_attr( $args['label'] ) . '"';
 }
 ?>
-<form role="search" <?php echo $twentytwenty_aria_label; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped above. ?> method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-	<label for="<?php echo esc_attr( $twentytwenty_unique_id ); ?>">
-		<span class="screen-reader-text"><?php _e( 'Search for:', 'twentytwenty' ); // phpcs:ignore: WordPress.Security.EscapeOutput.UnsafePrintingFunction -- core trusts translations ?></span>
-		<input type="search" id="<?php echo esc_attr( $twentytwenty_unique_id ); ?>" class="search-field" placeholder="<?php echo esc_attr_x( 'Search &hellip;', 'placeholder', 'twentytwenty' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+<form role="search" <?php echo $twentytwenty_aria_label; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped above. ?> method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>" style="height: 5rem; display: flex; padding: 0 2rem; top: 130px">
+	<label for="<?php echo esc_attr( $twentytwenty_unique_id ); ?>" style="height: 100%;">
+		<input type="search" id="<?php echo esc_attr( $twentytwenty_unique_id ); ?>" class="search-field"  value="<?php echo get_search_query(); ?>" name="s" style="height: 100%; border: 1px solid #fefefe; border-radius: 5rem; background-color: white; color: black; font-size: large;" />
 	</label>
-	<input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'twentytwenty' ); ?>" />
+	<input type="submit"  style="height: 100%" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'twentytwenty' ); ?>" />
 </form>
